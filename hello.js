@@ -15,6 +15,7 @@ function displayDino(){
 	x.setAttribute('position', 'fixed');
 	
 	document.getElementById('welcome').appendChild(x);
+	/*Displays bck img into css welcome id              */
 }
 
 btn.addEventListener('click', function(){
@@ -31,7 +32,7 @@ btn.addEventListener('click', function(){
 				}
 				else if (yourDino.indexOf('faggot') !== -1 || yourDino.indexOf('Faggot') !== -1)
 				{
-					dinoComment.textContent = yourDino + ' ?' + '   Go to hell NIGGA!!!';
+					dinoComment.te xtContent = yourDino + ' ?' + '   not particualrly funny. Your fired!!!';
 				}
 				else if (yourDino.indexOf('bollocks') !== -1 || yourDino.indexOf('Bollocks') !== -1)
 				{
@@ -42,10 +43,13 @@ btn.addEventListener('click', function(){
 				{
 				dinoComment.textContent = yourDino + ' ....interesting choice!';	
 				}
+				/*Switch statement  that picks up user input to make a pseudo filter   */
 				
       });
 for (var i =0; i < dino.length; i++){
                 info += dino[i] + ', ';	
 header.textContent = info;
+/* loopto print var dino array    */
 }
 header.textContent= header.textContent.slice(0,header.textContent.length-2) + '!';
+/*Gets the header length the takes 1 character off and replaces is with "!"    /*
