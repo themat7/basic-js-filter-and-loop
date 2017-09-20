@@ -1,0 +1,62 @@
+@font-face{
+ font-family: Munro;
+ src:url('Munro.ttf');  
+}
+#welcome{
+color: darkseagreen;
+font-size: 18px;
+font-family:Munro;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 6%;
+    position: inherit;
+    
+}
+#bck{
+    display: inline
+  position: fixed;  
+  top: -50%;
+    left: -50%; 
+  height: 100%; 
+width: 100%;
+}
+#bckImg {
+top: 0; 
+left: 0; 
+right: 0; 
+bottom: 0; 
+margin: auto; 
+min-width: 50%;
+min-height: 50%;
+background-size: cover;
+height: 100%; 
+width: 120%;
+    
+}
+#text{
+    color: darkseagreen;
+font-size: 18px;
+font-family:Munro;
+position: relative;
+    letter-spacing: 2px;
+}
+#nav{
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    padding-top: 22%;
+}
+#nav a{
+  color: inherit; /* colors and custom font for links too */
+  text-decoration: inherit; /* no underline */
+    display:inline-block;
+    padding: 11 px;
+
+}
+#nav li
+{
+display:inline;
+letter-spacing: 16px;
+padding: 28px; /*       centers the text */
+}
