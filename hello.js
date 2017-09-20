@@ -32,7 +32,7 @@ btn.addEventListener('click', function(){
 				}
 				else if (yourDino.indexOf('faggot') !== -1 || yourDino.indexOf('Faggot') !== -1)
 				{
-					dinoComment.te xtContent = yourDino + ' ?' + '   not particualrly funny. Your fired!!!';
+					dinoComment.textContent = yourDino + ' ?' + '   not particualrly funny. Your fired!!!';
 				}
 				else if (yourDino.indexOf('bollocks') !== -1 || yourDino.indexOf('Bollocks') !== -1)
 				{
@@ -43,7 +43,10 @@ btn.addEventListener('click', function(){
 				{
 				dinoComment.textContent = yourDino + ' ....interesting choice!';	
 				}
-				/*Switch statement  that picks up user input to make a pseudo filter   */
+				/*Else if with Switch statement  that picks up user input to make a pseudo filter 
+                  Uses indexOf to check for value , will give -1 if not found hence
+				  !== -1
+				*/
 				
       });
 for (var i =0; i < dino.length; i++){
