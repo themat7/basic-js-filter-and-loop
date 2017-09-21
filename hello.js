@@ -55,4 +55,4 @@ header.textContent = info;
 /* loopto print var dino array    */
 }
 header.textContent= header.textContent.slice(0,header.textContent.length-2) + '!';
-/*Gets the header length the takes 1 character off and replaces is with "!"    /*
+/*Gets the header length the takes 1 character off and replaces is with "!"    */
