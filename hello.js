@@ -15,7 +15,7 @@ function displayDino(){
 	x.setAttribute('position', 'fixed');
 	
 	document.getElementById('welcome').appendChild(x);
-	/*Displays bck img into css welcome id              */
+	
 }
 
 btn.addEventListener('click', function(){
@@ -43,9 +43,9 @@ btn.addEventListener('click', function(){
 				{
 				dinoComment.textContent = yourDino + ' ....interesting choice!';	
 				}
-				/*Else if with Switch statement  that picks up user input to make a pseudo filter 
-                  Uses indexOf to check for value , will give -1 if not found hence
-				  !== -1
+				/*pseudo filter 
+               
+				
 				*/
 				
       });
@@ -56,3 +56,4 @@ header.textContent = info;
 }
 header.textContent= header.textContent.slice(0,header.textContent.length-2) + '!';
 /*Gets the header length the takes 1 character off and replaces is with "!"    */
+//needs features haha
