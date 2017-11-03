@@ -1,0 +1,32 @@
+<!doctype HTML>
+<head> </head>
+<body>
+<h1>Extra info char counter for lazy stupid people </h1>
+<script>
+
+
+function getChar(char1, char2, char3)//parameters are variables that
+                                     //are elements in an array (inside an object, inside a variable)
+									 //this works-if not given wont work cuzit cant find um????
+{
+var string = window.prompt("Enter your superlong (annoying)  extra info");
+var input = {characters:[char1,char2,char3]};
+var i = 0;		
+var x = 0;
+while(x<input.characters.length){//loop asks for info 
+input.characters[x] = parseInt(window.prompt( "enter character " + x)-1);
+x++;
+}
+while(i <3){
+
+document.write('<h1> '+string.charAt(input.characters[i])+'</h1>');//loop prints out answer
+++i;
+
+}
+}
+getChar();/*
+before i used parameter as only method of changing 
+input variable
+*/
+</script>
+</body>
